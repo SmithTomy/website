@@ -25,7 +25,7 @@ export default function App() {
               <a href="#about" className="text-stone-600 hover:text-emerald-600 transition-colors">园区概况</a>
               <a href="#services" className="text-stone-600 hover:text-emerald-600 transition-colors">园区服务</a>
               <a href="#events" className="text-stone-600 hover:text-emerald-600 transition-colors">近期活动</a>
-              <a href="#contact" className="text-stone-600 hover:text-emerald-600 transition-colors">联系入驻</a>
+              <a href="#contact" className="text-stone-600 hover:text-emerald-600 transition-colors">联系我们</a>
             </div>
             <a href="#contact" className="bg-emerald-600 text-white px-5 py-2 rounded-full font-medium hover:bg-emerald-700 transition-colors">
               联系我们
@@ -97,7 +97,7 @@ export default function App() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/lucky.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="/images/Nine_seats.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <div className="bg-emerald-600 p-6 rounded-2xl text-white">
                     <p className="text-3xl font-bold mb-1">50,000+</p>
@@ -110,7 +110,7 @@ export default function App() {
                     <p className="text-stone-500 text-sm">园区绿化率</p>
                   </div>
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/tea.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="/images/lucky.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function App() {
                 date: "2026年4月5日 15:30",
                 location: "99樟树林文创园江南艺术馆",
                 image: "/images/date.jpg",
-                status: "已结束"
+                status: "筹划中"
               }
             ].map((event, idx) => (
               <motion.div
@@ -314,24 +314,14 @@ export default function App() {
                   </div>
                 </div>
               </div>
-              <div className="p-12">
-                <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
-                  <div>
-                    <label className="block text-sm font-medium text-stone-700 mb-2">您的姓名 / 称呼</label>
-                    <input type="text" className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all" placeholder="例如：张先生" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-stone-700 mb-2">联系电话</label>
-                    <input type="tel" className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all" placeholder="您的手机号码" />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-stone-700 mb-2">意向需求 (选填)</label>
-                    <textarea rows={3} className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all" placeholder="例如：需要500平米办公场地，预计下个月入驻..."></textarea>
-                  </div>
-                  <button className="w-full bg-emerald-600 text-white py-4 rounded-lg font-semibold hover:bg-emerald-700 transition-colors">
-                    提交咨询
-                  </button>
-                </form>
+              <div className="relative h-full min-h-[400px] group">
+                <img 
+                  src="/images/code.jpg" 
+                  alt="园区办公环境" 
+                  className="absolute inset-0 w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
+                 <div className="absolute inset-0 bg-emerald-900/10"></div>
               </div>
             </div>
           </div>
@@ -364,7 +354,7 @@ export default function App() {
               <li><a href="#home" className="hover:text-white transition-colors">首页</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">园区服务</a></li>
               <li><a href="#events" className="hover:text-white transition-colors">往期活动</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors">联系入驻</a></li>
+              <li><a href="#contact" className="hover:text-white transition-colors">联系我们</a></li>
             </ul>
           </div>
           <div>
