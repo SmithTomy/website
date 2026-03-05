@@ -12,7 +12,7 @@ export default function App() {
               <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">
                 <Building2 size={20} />
                 <img 
-                  src="/public/images/ip1.jpg" 
+                  src="/images/ip.jpg" 
                   alt="99樟树林 Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
@@ -70,7 +70,7 @@ export default function App() {
             {/* Hero Image Placeholder */}
             <div className="aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
-                src="/public/images/园区示意图.jpg" 
+                src="/images/99Park.jpg" 
                 alt="园区大门实景" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -97,7 +97,7 @@ export default function App() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/public/images/福来.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="/images/lucky.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <div className="bg-emerald-600 p-6 rounded-2xl text-white">
                     <p className="text-3xl font-bold mb-1">50,000+</p>
@@ -110,7 +110,7 @@ export default function App() {
                     <p className="text-stone-500 text-sm">园区绿化率</p>
                   </div>
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/public/images/茶社.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="/images/tea.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -194,13 +194,13 @@ export default function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-md group">
-              <img src="/public/images/实景1.jpg" alt="办公环境" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src="/images/park-view-1.jpg" alt="办公环境" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-md group">
-              <img src="/public/images/实景2.jpg" alt="绿化景观" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src="/images/park-view-2.jpg" alt="绿化景观" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-md group">
-              <img src="/public/images/石头.png" alt="配套设施" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src="/images/stone.png" alt="配套设施" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
             </div>
           </div>
         </div>
@@ -228,21 +228,21 @@ export default function App() {
                 title: "抛弃烦恼城市音乐会",
                 date: "2026年3月15日 14:00",
                 location: "99樟树林文创园中央广场",
-                image: "/public/images/音乐会.jpg",
+                image: "/images/music.jpg",
                 status: "已结束"
               },
               {
                 title: "周五夜：千人声浪与园区的共振LET'S SET OFF TOGETHER",
                 date: "2026年1月25日晚",
                 location: "99樟树林文创园黑铁音乐中心",
-                image: "/public/images/周五夜.png",
+                image: "/images/friday-night.png",
                 status: "已结束"
               },
               {
                 title: "单身无罪，大集相会” 的百人相亲会",
                 date: "2026年4月5日 15:30",
                 location: "99樟树林文创园江南艺术馆",
-                image: "/public/images/相亲活动.jpg",
+                image: "/images/date.jpg",
                 status: "已结束"
               }
             ].map((event, idx) => (
@@ -346,7 +346,7 @@ export default function App() {
               <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">
                 <Building2 size={20} />
                  <img 
-                  src="/public/images/ip1.jpg" 
+                  src="/images/ip.jpg" 
                   alt="99樟树林 Logo" 
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
