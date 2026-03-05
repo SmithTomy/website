@@ -97,7 +97,7 @@ export default function App() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="public\images\福来.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="public/images/福来.jpg" alt="园区景观" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                   <div className="bg-emerald-600 p-6 rounded-2xl text-white">
                     <p className="text-3xl font-bold mb-1">50,000+</p>
@@ -110,7 +110,7 @@ export default function App() {
                     <p className="text-stone-500 text-sm">园区绿化率</p>
                   </div>
                   <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
-                    <img src="public\images\茶社.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                    <img src="public/images/茶社.jpg" alt="办公空间" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                   </div>
                 </div>
               </div>
@@ -345,7 +345,12 @@ export default function App() {
             <div className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center text-white font-bold">
                 <Building2 size={20} />
-                <img alt="99樟树林 Logo" class="w-full h-full object-contain" referrerpolicy="no-referrer" src="public/images/ip1.jpg"></img>
+                 <img 
+                  src="public/images/ip1.jpg" 
+                  alt="99樟树林 Logo" 
+                  className="w-full h-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
                <span className="text-xl font-bold text-white">99樟树林</span>
             </div>
