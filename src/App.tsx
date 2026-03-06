@@ -70,7 +70,7 @@ export default function App() {
             {/* Hero Image Placeholder */}
             <div className="aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
-                src="/images/99Park.jpg" 
+                src="/images/99Park1.jpg" 
                 alt="园区大门实景" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -200,7 +200,7 @@ export default function App() {
               <img src="/images/park-view-2.jpg" alt="绿化景观" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
             </div>
             <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-md group">
-              <img src="/images/stone.png" alt="配套设施" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src="/images/park-view-3.jpg" alt="配套设施" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" referrerPolicy="no-referrer" />
             </div>
           </div>
         </div>
